@@ -65,7 +65,13 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+    
+    <script src="~/js/custom.js"></script>
 
     @RenderSection("Scripts", required: false)
+
+    <script type="text/javascript">
+        console.log('hello from Layout');
+    </script>
 </body>
 </html>
